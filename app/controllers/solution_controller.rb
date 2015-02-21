@@ -10,7 +10,7 @@ class SolutionController < ApplicationController
   	c[1] = 'D'
     c[2] = 'A'
     c[3] = 'A'
-    c[4] = 'B'
+    c[4] = 'A'
     c[5] = 'C'
     c[6] = '3'
     c[7] = '4'
@@ -39,7 +39,7 @@ class SolutionController < ApplicationController
     elsif score == 6
     	@comment = "Not bad!"
     elsif score == 7
-    	@comment = "Pretty Good!"
+    	@comment = "You are doing really good!"
     else
     	@comment = "Congratulations! You got 100%!"
     end
