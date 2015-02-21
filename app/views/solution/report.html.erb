@@ -1,0 +1,78 @@
+<h1>Report</h1>
+
+<h2 class="comment"><%= @comment %></h2>
+
+<% c1 = 'D' %>
+<% c2 = 'A' %>
+<% c3 = 'A' %>
+<% c4 = 'B' %>
+<% c5 = 'C' %>
+<% c6 = '3' %>
+<% c7 = '4' %>
+<% c8 = 'C' %>
+
+<h3>Your solutions are</h3>
+
+<p>P1) &nbsp <%= @a1 %></p>
+
+<% if @a1==c1 %>
+<%= image_tag("pdf/right.PNG") %>
+<% else %>
+<%= image_tag("pdf/wrong.PNG") %>
+<% end %>
+
+<p>P2) &nbsp <%= @a2 %></p>
+
+<% if @a2==c2 %>
+<%= image_tag("pdf/right.PNG") %>
+<% else %>
+<%= image_tag("pdf/wrong.PNG") %>
+<% end %>
+
+<p>P3) &nbsp <%= @a3 %></p>
+
+<% if @a3==c3 %>
+<%= image_tag("pdf/right.PNG") %>
+<% else %>
+<%= image_tag("pdf/wrong.PNG") %>
+<% end %>
+
+<p>P4) &nbsp <%= @a4 %></p>
+
+<% if @a4==c4 %>
+<%= image_tag("pdf/right.PNG") %>
+<% else %>
+<%= image_tag("pdf/wrong.PNG") %>
+<% end %>
+
+<p>P5) &nbsp <%= @a5 %></p>
+
+<% if @a5==c5 %>
+<%= image_tag("pdf/right.PNG") %>
+<% else %>
+<%= image_tag("pdf/wrong.PNG") %>
+<% end %>
+
+<p>P6) &nbsp <%= @a6 %></p>
+
+<% if @a6==c6 %>
+<%= image_tag("pdf/right.PNG") %>
+<% else %>
+<%= image_tag("pdf/wrong.PNG") %>
+<% end %>
+
+<p>P7) &nbsp <%= @a7 %></p>
+
+<% if @a7==c7 %>
+<%= image_tag("pdf/right.PNG") %>
+<% else %>
+<%= image_tag("pdf/wrong.PNG") %>
+<% end %>
+
+<p>P8) &nbsp <%= @a8 %></p>
+
+<% if @a8==c8 %>
+<%= image_tag("pdf/right.PNG") %>
+<% else %>
+<%= image_tag("pdf/wrong.PNG") %>
+<% end %>
